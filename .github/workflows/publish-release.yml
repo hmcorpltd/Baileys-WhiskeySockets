@@ -5,8 +5,6 @@ on:
     tags:
       - "v*"
 
-permissions: write-all
-
 jobs:
   publish-release:
     runs-on: ubuntu-latest
